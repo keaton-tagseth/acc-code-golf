@@ -64,9 +64,10 @@ Now you just need to make the solver. Write a tool which creates these calculati
 
 ## Submitting a solution
 
-1. Check out this repository
+1. Check out this repository and make a branch or fork
 2. Add all of your code but no third party code, e.g., `node_modules`. Put that stuff in .gitignore if you want to.
-3. Create a PR against this repository with both your names in the title
+3. Write the game results table output to the CONTRIBUTING.md
+4. Create a PR against this repository with both your names in the title
 
 We'll use Github to measure lines of code and languages used.
 
