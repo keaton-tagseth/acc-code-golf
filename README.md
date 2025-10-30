@@ -83,7 +83,7 @@ To win, your solution must produce the correct results and satisfy at least one 
 
 People's choice will be put to a vote at the end of the competition. Everyone gets to pick their favorite solution, completely subjective.
 
-The winners will be announced EOD Thursday.
+The winners will be announced EOD Wednesday.
 
 ## Get to it! 
 
