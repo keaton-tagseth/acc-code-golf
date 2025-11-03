@@ -60,7 +60,7 @@ Now you just need to make the solver. Write a tool which creates these calculati
 - _You must work together!_ Pair programming in teams of two. Talk about the problem together, code together, present your solution together.
 - You may use any language, framework, library, etc. 
 - You may use AI tools, but tell us so we can see how you used them effectively!
-- Everyone has the same amount of time: the end of the summit on Thursday.
+- Everyone has the same amount of time: the end of the summit on Wednesday.
 
 ## Submitting a solution
 
