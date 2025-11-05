@@ -4,7 +4,7 @@ main:
 	gcc -c main.c -o cg.o
 
 cg: cg.o
-	gcc cg.o -o cg
+	gcc cg.o -o cg -O3
 
 clean:
 	-rm -f cg.o
