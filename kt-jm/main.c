@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 static int gnuRead();
 
@@ -19,7 +18,7 @@ int main (void)
 
 int gnuRead(){
 
-    int whiteWin, blackWin, draw = 0;
+    ssize_t whiteWin = 0, blackWin = 0, draw = 0;
     printf("\nstarted\n");
 
     FILE *file = fopen("./mega-clean.pgn", "r");
@@ -49,10 +48,10 @@ int gnuRead(){
             
         }
     }
-    printf("\n%d", draw);
-    printf("\n%d", whiteWin);
-    printf("\n%d", blackWin);
-    printf("\n%d", draw + whiteWin + blackWin);
+    printf("\ndraw:%ld", draw);
+    printf("\n%white:ld", whiteWin);
+    printf("\n%black:ld", blackWin);
+    printf("\n%draw:ld\n", draw + whiteWin + blackWin);
     fclose(file);
     return 0;
 }
